@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.9.19)  12 DEC 2023 20:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.9.19)  13 DEC 2023 10:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -960,124 +960,66 @@ Package pgfplots notification 'compat/show suggested version=true': you might be
 Non-PDF special ignored!
 <special> header=psfrag.pro
 
-{C:/Users/gusta/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-
-LaTeX Warning: File `espina.png' not found on input line 127.
-
-
-c:/Users/gusta/OneDrive - SENA/Desktop/Taller_cartas_por_atributos/Taller_cartas_por_atributos.tex:127: Package pdftex.def Error: File `espina.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.127 ...degraphics[width=1\textwidth]{espina.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[1] [2]
-
-LaTeX Warning: File `espina2.png' not found on input line 156.
-
-
-c:/Users/gusta/OneDrive - SENA/Desktop/Taller_cartas_por_atributos/Taller_cartas_por_atributos.tex:156: Package pdftex.def Error: File `espina2.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.156 ...egraphics[width=1\textwidth]{espina2.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[3] [4]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 170.
+{C:/Users/gusta/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (Taller_cartas_por_atributos.toc
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
  (C:\Users\gusta\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 170.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
  (C:\Users\gusta\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [5]
+))
+\tf@toc=\write5
+\openout5 = `Taller_cartas_por_atributos.toc'.
 
-LaTeX Warning: File `Grapich.png' not found on input line 235.
+ [1]
+<CartaPVar.png, id=15, 577.40718pt x 603.0028pt>
+File: CartaPVar.png Graphic file (type png)
+<use CartaPVar.png>
+Package pdftex.def Info: CartaPVar.png  used on input line 117.
+(pdftex.def)             Requested size: 281.8561pt x 294.36063pt.
+<CartaP.png, id=17, 383.18156pt x 357.58594pt>
+File: CartaP.png Graphic file (type png)
+<use CartaP.png>
+Package pdftex.def Info: CartaP.png  used on input line 123.
+(pdftex.def)             Requested size: 281.8561pt x 263.04347pt.
+<GrafP.png, id=18, 362.007pt x 207.612pt>
+File: GrafP.png Graphic file (type png)
+<use GrafP.png>
+Package pdftex.def Info: GrafP.png  used on input line 174.
+(pdftex.def)             Requested size: 281.8561pt x 161.64525pt.
+ [2 <./CartaP.png>] [3 <./CartaPVar.png> <./GrafP.png>]
+<CartaNP.png, id=28, 383.93437pt x 343.2825pt>
+File: CartaNP.png Graphic file (type png)
+<use CartaNP.png>
+Package pdftex.def Info: CartaNP.png  used on input line 187.
+(pdftex.def)             Requested size: 281.8561pt x 252.02936pt.
+ [4]
+<GrafNP.png, id=32, 362.007pt x 217.467pt>
+File: GrafNP.png Graphic file (type png)
+<use GrafNP.png>
+Package pdftex.def Info: GrafNP.png  used on input line 237.
+(pdftex.def)             Requested size: 281.8561pt x 169.31827pt.
+ [5 <./CartaNP.png>] [6]
+<CartaU.png, id=41, 311.66437pt x 435.87843pt>
+File: CartaU.png Graphic file (type png)
+<use CartaU.png>
+Package pdftex.def Info: CartaU.png  used on input line 247.
+(pdftex.def)             Requested size: 281.8561pt x 394.19579pt.
+ [7 <./GrafNP.png>]
+<GrafU.png, id=46, 362.007pt x 217.467pt>
+File: GrafU.png Graphic file (type png)
+<use GrafU.png>
+Package pdftex.def Info: GrafU.png  used on input line 293.
+(pdftex.def)             Requested size: 281.8561pt x 169.31827pt.
+ (Taller_cartas_por_atributos.bbl [8 <./CartaU.png>] [9 <./GrafU.png>]
+Overfull \hbox (94.47949pt too wide) in paragraph at lines 61--74
+[]\OT1/cmr/m/n/10 Estad^^S^^Psti-ca, P. y.  (2023, ju-lio).  \OT1/cmr/m/it/10 Gr^^Safi-co de con-trol NP.  \OT1/cmtt/m/n/10 https://www.probabilidadyestadistica.net/grafico-de-control-np/\OT1/cmr/m/n/10 .
+ []
 
-
-c:/Users/gusta/OneDrive - SENA/Desktop/Taller_cartas_por_atributos/Taller_cartas_por_atributos.tex:235: Package pdftex.def Error: File `Grapich.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.235 ...raphics[width=0.7\textwidth]{Grapich.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[6] [7]
-
-LaTeX Warning: File `flujo_simb.png' not found on input line 274.
-
-
-c:/Users/gusta/OneDrive - SENA/Desktop/Taller_cartas_por_atributos/Taller_cartas_por_atributos.tex:274: Package pdftex.def Error: File `flujo_simb.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.274 ...hics[width=0.4\textwidth]{flujo_simb.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[8]
-
-LaTeX Warning: File `flujotornillos.png' not found on input line 291.
-
-
-c:/Users/gusta/OneDrive - SENA/Desktop/Taller_cartas_por_atributos/Taller_cartas_por_atributos.tex:291: Package pdftex.def Error: File `flujotornillos.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.291 ...ics[width=\textwidth]{flujotornillos.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[9]
-No file Taller_cartas_por_atributos.bbl.
-
-c:/Users/gusta/OneDrive - SENA/Desktop/Taller_cartas_por_atributos/Taller_cartas_por_atributos.tex:299: LaTeX Error: \begin{itemize} on input line 173 ended by \end{enumerate}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.299 \end{enumerate}
-                     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[10]
-
-c:/Users/gusta/OneDrive - SENA/Desktop/Taller_cartas_por_atributos/Taller_cartas_por_atributos.tex:300: LaTeX Error: \begin{enumerate} on input line 111 ended by \end{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.300 \end{document}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-(Taller_cartas_por_atributos.aux
+) [10] (Taller_cartas_por_atributos.aux
 LaTeX Info: Redefining \. on input line 10.
 LaTeX Info: Redefining \% on input line 10.
 )
@@ -1089,23 +1031,19 @@ L3 programming layer <2023-08-29>
 
 LaTeX Warning: There were multiply-defined labels.
 
- )
-(\end occurred inside a group at level 1)
-
-### semi simple group (level 1) entered at line 111 (\begingroup)
-### bottom level 
+ ) 
 Here is how much of TeX's memory you used:
- 33097 strings out of 475248
- 811325 string characters out of 5757813
- 1937801 words of memory out of 5000000
- 54035 multiletter control sequences out of 15000+600000
- 564888 words of font info for 61 fonts, out of 8000000 for 9000
+ 33022 strings out of 475248
+ 809476 string characters out of 5757813
+ 1946801 words of memory out of 5000000
+ 53955 multiletter control sequences out of 15000+600000
+ 564553 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,12n,103p,904b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\gusta\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/gusta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/gusta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/gusta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/gusta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/gusta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Taller_cartas_por_atributos.pdf (11 pages, 94850 bytes).
+ 99i,10n,103p,807b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/gusta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/gusta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/gusta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/gusta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/gusta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/gusta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/gusta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on Taller_cartas_por_atributos.pdf (11 pages, 585162 bytes).
 PDF statistics:
- 71 PDF objects out of 1000 (max. 8388607)
+ 91 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 48 words of extra memory for PDF output out of 10000 (max. 10000000)
 

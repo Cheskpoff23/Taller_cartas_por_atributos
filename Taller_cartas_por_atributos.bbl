@@ -1,0 +1,102 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Alvarez~Borrego%
+}{%
+Alvarez~Borrego%
+}{%
+{\protect \APACyear {2012}}%
+}]{%
+alvarez2012control}
+\APACinsertmetastar {%
+alvarez2012control}%
+\begin{APACrefauthors}%
+Alvarez~Borrego, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Control estad{\'\i}stico de procesos} {Control
+  estad{\'\i}stico de procesos}.{\BBCQ}
+\newblock
+
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Cabez{\'o}n~Guti{\'e}rrez%
+\ \protect \BOthers {.}}{%
+Cabez{\'o}n~Guti{\'e}rrez%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2014}}%
+}]{%
+cabezon2014control}
+\APACinsertmetastar {%
+cabezon2014control}%
+\begin{APACrefauthors}%
+Cabez{\'o}n~Guti{\'e}rrez, S.%
+\BCBT {}\ \BOthersPeriod {.}
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Control de Calidad en la produccion industrial} {Control
+  de calidad en la produccion industrial}.{\BBCQ}
+\newblock
+
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Estad{\'\i}stica%
+}{%
+Estad{\'\i}stica%
+}{%
+{\protect \APACyear {2023}}%
+}]{%
+Estadistica2023-ox}
+\APACinsertmetastar {%
+Estadistica2023-ox}%
+\begin{APACrefauthors}%
+Estad{\'\i}stica, P\BPBI y.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{{\APACmonth{07}}}{}.
+\newblock
+\APACrefbtitle {Gr{\'a}fico de control {NP}.} {Gr{\'a}fico de control {NP}.}
+\newblock
+\APAChowpublished
+  {\url{https://www.probabilidadyestadistica.net/grafico-de-control-np/}}.
+\newblock
+\APACrefnote{Accessed: 2023-12-6}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Evans%
+\ \BBA {} Lindsay%
+}{%
+Evans%
+\ \BBA {} Lindsay%
+}{%
+{\protect \APACyear {2014}}%
+}]{%
+Evans2014-qd}
+\APACinsertmetastar {%
+Evans2014-qd}%
+\begin{APACrefauthors}%
+Evans, J.%
+\BCBT {}\ \BBA {} Lindsay, W.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2014}.
+\newblock
+\APACrefbtitle {Administracion y Control de la Calidad} {Administracion y
+  control de la calidad}\ (\PrintOrdinal{9}\ \BEd).
+\newblock
+\APACaddressPublisher{Valle de M{\'e}xico}{Cengage Learning Editores S.A. de
+  C.V}.
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}

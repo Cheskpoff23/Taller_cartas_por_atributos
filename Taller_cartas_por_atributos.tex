@@ -78,11 +78,10 @@
 \begin{titlepage}
 	\centering
 	\vspace{2.5cm}
-	{\scshape \Large TALLER HERRAMIENTAS DE CONTROL \par}
+	{\scshape \Large TALLER DE CARTAS POR ATRIBUTOS\par}
 	\vspace{5cm}
 	\textbf\large\scshape{\par}
 	\vspace{0.5cm}
-
 	{\Large Vergara Pareja Gustavo\par}
 	\vspace{5cm}
 	{\scshape\Large Miguel Ángel Lancheros\par}
@@ -93,208 +92,209 @@
 	\vspace{0.3cm}
 	{\Large 6 de Diciembre de 2023 \par}
 \end{titlepage}
-%\tableofcontents
+\tableofcontents
 \newpage
-
-\section{Carta de control por atributo P}
-El análisis de causa y efecto, también
-llamado diagrama de espina de
-pescado o diagrama de Ishikawa, es
-una herramienta que se utiliza para
-identificar las posibles causas de un
-problema específico. Fue
-desarrollado por el ingeniero japonés
-Kaoru Ishikawa en la década de 1960
-y se utiliza ampliamente en la
-resolución de problemas y en la
-mejora de la calidad.
-\begin{enumerate}
-	\item ¿Como se presenta?\newline
-	El diagrama de Ishikawa se presenta
-	como una especie de espinas de
-	pescado, de ahí su nombre, donde el
-	eje horizontal representa el problema
-	que se está analizando y el eje vertical
-	representa las posibles causas que
-	pueden estar contribuyendo al
-	problema. Las espinas son líneas que
-	se extienden desde el eje horizontal y
-	se conectan con las costillas, que
-	representan las diferentes categorías
-	de causas.   
-		            \begin{figure}[H]
-			            \centering
-			            \includegraphics[width=1\textwidth]{espina.png}
-			            \caption{Espina de pescado}
-			            \label{fig:imagen2}
-		            \end{figure}
-	\item ¿Para qué sirve la
-	metodología de análisis
-	de causa-efecto en una
-	organización?\newline
-	El análisis de causa-efecto es una
-	herramienta muy útil en las
-	organizaciones debido a que permite
-	identificar y analizar las posibles
-	causas de un problema o una situación,
-	a continuación se describen las
-	utilidades de la metodología en una
-	organización.
-	      \begin{itemize}
-			\newpage
-		      \item Identiﬁcación de las causas de un problema\newline
-		      El análisis de causa-efecto ayuda a las organizaciones a identiﬁcar las causas subyacentes de un problema en particular. Al hacer esto, se puede desarrollar una mejor comprensión del problema y se pueden tomar medidas para abordarlo adecuadamente.
-				\item Mejora continua\newline
-				Al utilizar el análisis de causa-efecto para identiﬁcar las causas de un problema, las organizaciones pueden desarrollar planes de mejora continua. Esto implica identiﬁcar y eliminar las causas raíz de los problemas para mejorar los procesos y las operaciones de la organización.
-				\item Resolución de problemas\newline
-				Al analizar las causas subyacentes de un problema, el análisis de causa-efecto ayuda a las organizaciones a desarrollar soluciones efectivas para resolver el problema. Estas soluciones se enfocan en abordar las causas raíz y no solo los síntomas del problema.
-				\item Planiﬁcación y toma de decisiones\newline
-				El análisis de causa-efecto se utiliza comúnmente en la planiﬁcación y toma de decisiones. Las organizaciones pueden utilizarlo para identiﬁcar los factores que afectan los resultados y, por lo tanto, tomar decisiones informadas para mejorar estos resultados.
-			\end{itemize}
-			\begin{figure}[H]
-				\centering
-				\includegraphics[width=1\textwidth]{espina2.png}
-				\caption{Ejemplo de Espina de pescado}
-				\label{fig:imagen2}
-			\end{figure}
-			\newpage
-
-\section{Carta de control por atributo NP}
-
-El principio de Pareto es una herramienta de análisis y toma
-de decisiones creada por Vilfredo Pareto (1848-1923)
-a finales del siglo XIX en 1897. El economista y sociólogo
-italiano, que estudió en la Universidad Politécnica de Turin en
-ltalia, es considerado el padre fundador de lo que ahora se
-llama "Principio de Pareto". Al estudiar la riqueza de su
-país descubrió que sólo el 20\% de la gente poseía el 80\% de la
-riqueza total. Luego aplicó esta ley a otros estados como
-Rusia, Francia y Suiza y encontró los mismos resultados.
+\section{Introducción}
 \begin{itemize}
-	\item¿Comó surge el Principio de Pareto?
-	      \begin{itemize}
-		      \item El principio de Pareto surge de la observación de que el 20 \% de los clientes son responsables del 80\% de los efectos. Es decir en el mundo de los negocios, el 20 \% de los clientes son responsables del 80\% de la facturación. Al identificar este 20\% (los clientes más importantes) las empresas pueden prestarles más atención para ahorrar tiempo y dinero. Según Joseph Juran, el principio de Pareto se puede aplicar universalmente en el ámbito empresarial y se puede encontrar en todos los sectores de la sociedad. Incluso puedes utilizar el principio en la mayoría de las áreas de la vida diaria. Sin embargo, veremos que, tanto en el ámbito empresarial como en otros ámbitos, la relación 80/20 no siempre se respeta pero si da una idea de la realidad.
-	      \end{itemize}
-	\item El principio de Pareto como herramienta de control de calidad.\newline
-	Una segunda aplicación, utilizada por Joseph Juran, es la del control
-	y gestión de calidad en una línea de producción. Si el 20\% de
-	Las fallas causan el 80\% de los problemas, la empresa puede concentrarse
-	centrar sus esfuerzos en abordar las fallas en cuestión para
-	para mejorar la calidad. También son válidas otras aplicaciones similares:
+	\item Cualquier característica de calidad que pueda ser clasificada de forma binaria: “cumple o no
+	cumple”, “funciona o no funciona”, “pasa o no pasa”, “conforme o disconforme” “defectuoso,
+	no defectuoso”, será considerado como un atributo y para su control se utilizan Cartas de Control por Atributos.
+	En el caso de las cartas para variables, tenemos dos cartas, una para la tendencia central y otra
+	para la dispersión. En el control por atributos, tanto la media como la variabilidad de la
+	proporción muestral dependen de un único parámetro, por lo que se hace sólo una carta de control.
+	Existen diferentes tipos de cartas de control por atributos sin embargo solo estudiaremos las
+	siguientes: Cartas P, NP, y U.
+\end{itemize}
+\section{Carta de control por atributos P (Proporción de defectuosos)}
 	\begin{itemize}
-		\item El 20\% del tiempo de configuración de la máquina puede resolver el 80\% de los problemas;
-		\item El 20\% de la línea de producción es responsable del 80\% del
-		producto final.
-	\end{itemize}
-\newpage
-	\item 	ESTUDIO DE CASO: UNA LÍNEA DE PRODUCCIÓN\newline
-Introducción al problema\newline
-Nuestro caso de estudio se refiere a una industria y su línea de
-producción. En esta empresa, la línea de producción está
-experimentando interrupciones recurrentes a lo largo del año. En conjunto
-suman un total de 1033 horas, lo que supone poco más de un
-mes de inactividad. Para compensar la pérdida de horas de trabajo,
-el directivo, que advirtió que la dinámica no era lógica,
-identifica las diez causas comunes de parada de línea. Luego estima
-un tiempo de parada promedio (en horas) y proporciona un recuento
-de ocurrencias para cada causa. Utilizando el principio de
-Pareto, espera identificar los principales factores que perturban la línea
-de producción.
-\begin{table}[h!]
-	\begin{tabular}{|l|l|l|l|l|}
-	\hline 
-	\multicolumn{1}{|p{155.83218pt}}{\raggedright Problemas (retraso en h)} & \multicolumn{1}{|p{61.730625pt}}{\raggedright Ocurrencias} & \multicolumn{1}{|p{48.18pt}}{\raggedright Total (h)} & \multicolumn{1}{|p{41.404686pt}}{\raggedright \%} & \multicolumn{1}{|p{60.225pt}|}{\raggedright Acumulado \ (\%)}\\ 
-	\hline 
-	\multicolumn{1}{|p{155.83218pt}}{\raggedright Configuraci\'on de la m\'aquina (7)} & \multicolumn{1}{|p{61.730625pt}}{\raggedright 56} & \multicolumn{1}{|p{48.18pt}}{\raggedright 392} & \multicolumn{1}{|p{41.404686pt}}{\raggedright 37,95} & \multicolumn{1}{|p{60.225pt}|}{\raggedright 37,95}\\ 
-	\hline 
-	\multicolumn{1}{|p{155.83218pt}}{\raggedright Recalibraci\'on (3)} & \multicolumn{1}{|p{61.730625pt}}{\raggedright 87} & \multicolumn{1}{|p{48.18pt}}{\raggedright 265} & \multicolumn{1}{|p{41.404686pt}}{\raggedright 25,27} & \multicolumn{1}{|p{60.225pt}|}{\raggedright 63,21}\\ 
-	\hline 
-	\multicolumn{1}{|p{155.83218pt}}{\raggedright Mala configuraci\'on (4)} & \multicolumn{1}{|p{61.730625pt}}{\raggedright 23} & \multicolumn{1}{|p{48.18pt}}{\raggedright 92} & \multicolumn{1}{|p{41.404686pt}}{\raggedright 8,91} & \multicolumn{1}{|p{60.225pt}|}{\raggedright 72,12}\\ 
-	\hline 
-	\multicolumn{1}{|p{155.83218pt}}{\raggedright Fuga de aceite de la m\'aquina (7)} & \multicolumn{1}{|p{61.730625pt}}{\raggedright 12} & \multicolumn{1}{|p{48.18pt}}{\raggedright 84} & \multicolumn{1}{|p{41.404686pt}}{\raggedright 8,13} & \multicolumn{1}{|p{60.225pt}|}{\raggedright 80,25}\\ 
-	\hline 
-	\multicolumn{1}{|p{155.83218pt}}{\raggedright Escasez de existencias (12)} & \multicolumn{1}{|p{61.730625pt}}{\raggedright 5} & \multicolumn{1}{|p{48.18pt}}{\raggedright 60} & \multicolumn{1}{|p{41.404686pt}}{\raggedright 5,81} & \multicolumn{1}{|p{60.225pt}|}{\raggedright 86,06}\\ 
-	\hline 
-	\multicolumn{1}{|p{155.83218pt}}{\raggedright Cambios de orden(4)} & \multicolumn{1}{|p{61.730625pt}}{\raggedright 15} & \multicolumn{1}{|p{48.18pt}}{\raggedright 60} & \multicolumn{1}{|p{41.404686pt}}{\raggedright 5,81} & \multicolumn{1}{|p{60.225pt}|}{\raggedright 91,87}\\ 
-	\hline 
-	\multicolumn{1}{|p{155.83218pt}}{\raggedright Fallo de compresor (7)} & \multicolumn{1}{|p{61.730625pt}}{\raggedright 4} & \multicolumn{1}{|p{48.18pt}}{\raggedright 28} & \multicolumn{1}{|p{41.404686pt}}{\raggedright 2,71} & \multicolumn{1}{|p{60.225pt}|}{\raggedright 94,58}\\ 
-	\hline 
-	\multicolumn{1}{|p{155.83218pt}}{\raggedright Huelga de empleados (24)} & \multicolumn{1}{|p{61.730625pt}}{\raggedright 1} & \multicolumn{1}{|p{48.18pt}}{\raggedright 24} & \multicolumn{1}{|p{41.404686pt}}{\raggedright 2,32} & \multicolumn{1}{|p{60.225pt}|}{\raggedright 96,90}\\ 
-	\hline 
-	\multicolumn{1}{|p{155.83218pt}}{\raggedright Corte de energ\'{\i}a (1)} & \multicolumn{1}{|p{61.730625pt}}{\raggedright 22} & \multicolumn{1}{|p{48.18pt}}{\raggedright 22} & \multicolumn{1}{|p{41.404686pt}}{\raggedright 2,13} & \multicolumn{1}{|p{60.225pt}|}{\raggedright 99,03}\\ 
-	\hline 
-	\multicolumn{1}{|p{155.83218pt}}{\raggedright Desglose general (2)} & \multicolumn{1}{|p{61.730625pt}}{\raggedright 5} & \multicolumn{1}{|p{48.18pt}}{\raggedright 10} & \multicolumn{1}{|p{41.404686pt}}{\raggedright 0,97} & \multicolumn{1}{|p{60.225pt}|}{\raggedright 100,00}\\ 
-	\hline 
-	\multicolumn{1}{|p{155.83218pt}}{\raggedright TOTAL} & \multicolumn{1}{|p{61.730625pt}}{\raggedright 230} & \multicolumn{1}{|p{48.18pt}}{\raggedright 1033} & \multicolumn{1}{|p{41.404686pt}}{\raggedright 100,00} & \multicolumn{1}{|p{60.225pt}|}{}\\ 
-	\hline 
-	
-	\end{tabular}
-	\end{table}	
-	      \begin{figure}[H]
-		      \centering
-		      \includegraphics[width=0.7\textwidth]{Grapich.png}
-		      \caption{Gráfico de la línea de producción de la industria}
-		      \label{fig:imagen2}
-	      \end{figure}
-
-	\item Identificar los factores importantes\newline
-	El principio de Pareto funciona particularmente bien en este caso
-	porque una minoría de factores causa la mayoría de los problemas.
-	En concreto, casi el 30\% de los factores provocan el 72\% de los retrasos
-	en la línea de producción. Observe que hay otras dos proporciones
-	cercanas a 80/20:
-	      \begin{enumerate}
-		      \item Al considerar las dos mayores causas (20\%), el
-			  porcentaje de retrasos es del 63\%;
-		      \item Si se consideran los cuatro mayores problemas (40\%), el
-			  porcentaje de retrasos es del 80\%.
-	      \end{enumerate}\newpage
-		  \item ¿Cuál es la mejor proporción? \newline
-		   Está claro que la proporción general del 30\% de los factores que
-	causan el 72\% de los retrasos es la más cercana al principio de Pareto.
-	Desafortunadamente, esto no resuelve todos los problemas:
-	\begin{enumerate}
-		\item En primer lugar, nos quedan muchos factores problemáticos
-		que ajustar, pero elegir centrarnos en la primera proporción (dos
-		cuestiones principales) nos centraríamos en una minoría de causas
-		que causan el máximo número de consecuencias, que es precisamente
-		el objetivo del principio de Pareto;
-		\item En segundo lugar, si el director de la planta quiere solucionar tantos
-		problemas como sea posible, tiene todos los motivos para centrarse en el
-		tercer ratio, corrigiendo el 40\% de las causas que provocan el 80\% de
-		los retrasos en la línea de producción.
-	\end{enumerate}
-		  \section{Carta de control por atributo U}
-		  Muestran la secuencia de pasos y las posibilidades de ramificaciones que existen en un proceso que
-		  transforma una o más entradas en una o más salidas. Los diagramas de flujo muestran las actividades,
-		  los puntos de decisión, las ramificaciones, las rutas paralelas y el orden general de proceso.
-		  En gestión de la calidad es una herramienta básica para la representación de los macroprocesos, procesos, subprocesos y/o tareas.
-		  \begin{figure}[H]
+		\item Estas cartas miden la proporción de unidades no conformes en un grupo de unidades que se
+		inspecciona. El objetivo es comprobar si la evolución de las proporciones muestrales observadas
+		son compatibles con un mismo valor poblacional p.
+		Este tipo de grafica se puede construir con n constante o variable por lo que a continuación se
+		muestra el procedimiento para ambos casos.
+		\begin{figure}[!ht]
 			\centering
-			\includegraphics[width=0.4\textwidth]{flujo_simb.png}
-			\caption{Simbología del diagrama de flujo}
-			\label{fig:imagen2}
-		\end{figure}
-		Un diagrama de flujo presenta generalmente un único punto de inicio y un único punto de cierre, aunque puede tener más, siempre que cumpla con la lógica requerida.
-		\begin{itemize}
-			\item Pasos para construir un Diagrama de Flujo.
-			\begin{enumerate}
-				\item Definir el alcance del proceso a describir. De esta manera quedara fijado la entrada y la salida del diagrama.
-				\item Identificar y enumerar las principales actividades/subprocesos que están incluidos en el proceso a describir.
-				\item Establecer los puntos de decisión.
-				\item Construir el diagrama respetando la secuencia cronológica y asignando los correspondientes símbolos.
-				\item Fijar un título al diagrama y verificar que esté completo y describa con exactitud el proceso elegido.
-			\end{enumerate}
-		\end{itemize}  
-		\begin{figure}[H]
-			\centering
-			\includegraphics[width=\textwidth]{flujotornillos.png}
-			\caption[short]{Ejemplo de diagrama de flujo}
+			\includegraphics[width=0.6\textwidth]{CartaPVar.png}
+			\caption[short]{Pasos para Carta P, con n constante}
 			\label{fig:imagen2}
 		  \end{figure}
-		
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.6\textwidth]{CartaP.png}
+			\caption[short]{Pasos para Carta P, con n variable}
+			\label{fig:imagen2}
+		  \end{figure}
+	
+	\end{itemize}
+	Un fabricante de latas de aluminio registra el número de partes defectuosas, tomando
+	muestras cada hora de 50 latas, con 30 subgrupos. Construir la carta de control p (proporción de
+	defectuosos) para la siguiente serie de datos obtenida durante el muestreo además dar un
+	informe de la interpretación de carta obtenida. (Construir una carta de control P)
+	\begin{table}[ht!]
+		\centering
+		\begin{tabular}{|l|l|l|l|l|l|}
+		\hline
+			Subgrupo & Latas defectuosas & pi & UCL & CL & LCL \\ \hline
+			1 & 12 & 0.24 & 0.410239119 & 0.231333333 & 0.052427548 \\ \hline
+			2 & 15 & 0.3 & 0.410239119 & 0.231333333 & 0.052427548 \\ \hline
+			3 & 8 & 0.16 & 0.410239119 & 0.231333333 & 0.052427548 \\ \hline
+			4 & 10 & 0.2 & 0.410239119 & 0.231333333 & 0.052427548 \\ \hline
+			5 & 4 & 0.08 & 0.410239119 & 0.231333333 & 0.052427548 \\ \hline
+			6 & 7 & 0.14 & 0.410239119 & 0.231333333 & 0.052427548 \\ \hline
+			7 & 16 & 0.32 & 0.410239119 & 0.231333333 & 0.052427548 \\ \hline
+			8 & 9 & 0.18 & 0.410239119 & 0.231333333 & 0.052427548 \\ \hline
+			9 & 14 & 0.28 & 0.410239119 & 0.231333333 & 0.052427548 \\ \hline
+			10 & 10 & 0.2 & 0.410239119 & 0.231333333 & 0.052427548 \\ \hline
+			11 & 5 & 0.1 & 0.410239119 & 0.231333333 & 0.052427548 \\ \hline
+			12 & 6 & 0.12 & 0.410239119 & 0.231333333 & 0.052427548 \\ \hline
+			13 & 17 & 0.34 & 0.410239119 & 0.231333333 & 0.052427548 \\ \hline
+			14 & 12 & 0.24 & 0.410239119 & 0.231333333 & 0.052427548 \\ \hline
+			15 & 22 & 0.44 & 0.410239119 & 0.231333333 & 0.052427548 \\ \hline
+			16 & 8 & 0.16 & 0.410239119 & 0.231333333 & 0.052427548 \\ \hline
+			17 & 10 & 0.2 & 0.410239119 & 0.231333333 & 0.052427548 \\ \hline
+			18 & 5 & 0.1 & 0.410239119 & 0.231333333 & 0.052427548 \\ \hline
+			19 & 13 & 0.26 & 0.410239119 & 0.231333333 & 0.052427548 \\ \hline
+			20 & 11 & 0.22 & 0.410239119 & 0.231333333 & 0.052427548 \\ \hline
+			21 & 20 & 0.4 & 0.410239119 & 0.231333333 & 0.052427548 \\ \hline
+			22 & 18 & 0.36 & 0.410239119 & 0.231333333 & 0.052427548 \\ \hline
+			23 & 24 & 0.48 & 0.410239119 & 0.231333333 & 0.052427548 \\ \hline
+			24 & 15 & 0.3 & 0.410239119 & 0.231333333 & 0.052427548 \\ \hline
+			25 & 9 & 0.18 & 0.410239119 & 0.231333333 & 0.052427548 \\ \hline
+			26 & 12 & 0.24 & 0.410239119 & 0.231333333 & 0.052427548 \\ \hline
+			27 & 7 & 0.14 & 0.410239119 & 0.231333333 & 0.052427548 \\ \hline
+			28 & 13 & 0.26 & 0.410239119 & 0.231333333 & 0.052427548 \\ \hline
+			29 & 9 & 0.18 & 0.410239119 & 0.231333333 & 0.052427548 \\ \hline
+			30 & 6 & 0.12 & 0.410239119 & 0.231333333 & 0.052427548 \\ \hline
+			~ & 347 & ~ & ~ & ~ & ~ \\ \hline
+			~ & P & 0.231333333 \\ \hline
+		\end{tabular}
+	\end{table}
+	\begin{figure}[ht!]
+		\centering
+		\includegraphics[width=0.6\textwidth]{GrafP.png}
+		\caption[short]{Gráfico Carta P}
+		\label{fig:imagen2}
+	  \end{figure}
+	  \newpage
+\section{Carta de control por atributos NP (Número de defectuosos)}
+
+\begin{itemize}
+	\item La carta np es una herramienta estadística usada para evaluar el número de artículos
+	defectuosos o el número de artículos no conformes producidos por un proceso. Tenga en cuenta
+	que siempre que una carta np se pueda utilizar también se podrá utilizar una carta p.
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.6\textwidth]{CartaNP.png}
+		\caption[short]{Pasos para Carta NP}
+		\label{fig:imagen2}
+	  \end{figure}
+	\item La siguiente tabla de datos fue obtenida mediante la apertura al azar de una caja seleccionada
+	de cada envío y contando el número de perfiles de acero golpeados que tenia cada caja. Había 250
+	perfiles por caja.
+	Construir una carta de control np (número de defectuosos).
+\end{itemize}
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|l|l|l|l|l|l|}
+    \hline
+        No. de envío & Perfiles golpeados & pi & UCL & CL & LCL \\ \hline
+        1 & 20 & 0.08 & 42.87690185 & 27.93333333 & 12.98976482 \\ \hline
+        2 & 28 & 0.112 & 42.87690185 & 27.93333333 & 12.98976482 \\ \hline
+        3 & 24 & 0.096 & 42.87690185 & 27.93333333 & 12.98976482 \\ \hline
+        4 & 21 & 0.084 & 42.87690185 & 27.93333333 & 12.98976482 \\ \hline
+        5 & 32 & 0.128 & 42.87690185 & 27.93333333 & 12.98976482 \\ \hline
+        6 & 33 & 0.132 & 42.87690185 & 27.93333333 & 12.98976482 \\ \hline
+        7 & 31 & 0.124 & 42.87690185 & 27.93333333 & 12.98976482 \\ \hline
+        8 & 29 & 0.116 & 42.87690185 & 27.93333333 & 12.98976482 \\ \hline
+        9 & 30 & 0.12 & 42.87690185 & 27.93333333 & 12.98976482 \\ \hline
+        10 & 34 & 0.136 & 42.87690185 & 27.93333333 & 12.98976482 \\ \hline
+        11 & 32 & 0.128 & 42.87690185 & 27.93333333 & 12.98976482 \\ \hline
+        12 & 24 & 0.096 & 42.87690185 & 27.93333333 & 12.98976482 \\ \hline
+        13 & 29 & 0.116 & 42.87690185 & 27.93333333 & 12.98976482 \\ \hline
+        14 & 27 & 0.108 & 42.87690185 & 27.93333333 & 12.98976482 \\ \hline
+        15 & 37 & 0.148 & 42.87690185 & 27.93333333 & 12.98976482 \\ \hline
+        16 & 23 & 0.092 & 42.87690185 & 27.93333333 & 12.98976482 \\ \hline
+        17 & 27 & 0.108 & 42.87690185 & 27.93333333 & 12.98976482 \\ \hline
+        18 & 28 & 0.112 & 42.87690185 & 27.93333333 & 12.98976482 \\ \hline
+        19 & 31 & 0.124 & 42.87690185 & 27.93333333 & 12.98976482 \\ \hline
+        20 & 27 & 0.108 & 42.87690185 & 27.93333333 & 12.98976482 \\ \hline
+        21 & 30 & 0.12 & 42.87690185 & 27.93333333 & 12.98976482 \\ \hline
+        22 & 23 & 0.092 & 42.87690185 & 27.93333333 & 12.98976482 \\ \hline
+        23 & 23 & 0.092 & 42.87690185 & 27.93333333 & 12.98976482 \\ \hline
+        24 & 27 & 0.108 & 42.87690185 & 27.93333333 & 12.98976482 \\ \hline
+        25 & 35 & 0.14 & 42.87690185 & 27.93333333 & 12.98976482 \\ \hline
+        26 & 29 & 0.116 & 42.87690185 & 27.93333333 & 12.98976482 \\ \hline
+        27 & 23 & 0.092 & 42.87690185 & 27.93333333 & 12.98976482 \\ \hline
+        28 & 23 & 0.092 & 42.87690185 & 27.93333333 & 12.98976482 \\ \hline
+        29 & 30 & 0.12 & 42.87690185 & 27.93333333 & 12.98976482 \\ \hline
+        30 & 28 & 0.112 & 42.87690185 & 27.93333333 & 12.98976482 \\ \hline
+        ~ & 838 & ~ & ~ & ~ & ~ \\ \hline
+        ~ & P & 0.111733333 & ~ & ~ & ~ \\ \hline
+    \end{tabular}
+\end{table}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.6\textwidth]{GrafNP.png}
+	\caption[short]{Gráfico Carta NP}
+	\label{fig:imagen2}
+  \end{figure}
+\section{Carta de control por atributos U (Número de ocurrencias por unidad)}
+\begin{itemize}
+	\item La carta u es una herramienta estadística usada para evaluar la variación del número promedio
+	de defectos por articulo o unidad. Se usa cuando el tamaño del subgrupo no es constante.
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.6\textwidth]{CartaU.png}
+		\caption[short]{Pasos para Carta U}
+		\label{fig:imagen2}
+	  \end{figure}
+\end{itemize}	 
+En una fábrica se ensamblan artículos electrónicos y al final del proceso se hace una
+inspección por muestreo para detectar defectos relativamente menores. En la siguiente tabla se
+presenta el número de defectos observados en muestreos realizados en 24 lotes consecutivos de
+piezas electrónicas. Construir una carta de control U.
+\begin{table}[!ht]
+    \centering
+    \begin{tabular}{|l|l|l|l|l|l|l|}
+    \hline
+        Lote & Tamaño de muestra & Detectos encontrados & Ui & UCL & CL & LCL \\ \hline
+        1 & 20 & 17 & 0.85 & 1.701638622 & 1.045714286 & 0.38978995 \\ \hline
+        2 & 20 & 24 & 1.2 & 1.701638622 & 1.045714286 & 0.38978995 \\ \hline
+        3 & 20 & 16 & 0.8 & 1.701638622 & 1.045714286 & 0.38978995 \\ \hline
+        4 & 20 & 26 & 1.3 & 1.701638622 & 1.045714286 & 0.38978995 \\ \hline
+        5 & 15 & 15 & 1 & 1.701638622 & 1.045714286 & 0.38978995 \\ \hline
+        6 & 15 & 15 & 1 & 1.701638622 & 1.045714286 & 0.38978995 \\ \hline
+        7 & 15 & 20 & 1.333333333 & 1.701638622 & 1.045714286 & 0.38978995 \\ \hline
+        8 & 25 & 18 & 0.72 & 1.701638622 & 1.045714286 & 0.38978995 \\ \hline
+        9 & 25 & 26 & 1.04 & 1.701638622 & 1.045714286 & 0.38978995 \\ \hline
+        10 & 25 & 10 & 0.4 & 1.701638622 & 1.045714286 & 0.38978995 \\ \hline
+        11 & 25 & 25 & 1 & 1.701638622 & 1.045714286 & 0.38978995 \\ \hline
+        12 & 30 & 21 & 0.7 & 1.701638622 & 1.045714286 & 0.38978995 \\ \hline
+        13 & 30 & 40 & 1.333333333 & 1.701638622 & 1.045714286 & 0.38978995 \\ \hline
+        14 & 30 & 24 & 0.8 & 1.701638622 & 1.045714286 & 0.38978995 \\ \hline
+        15 & 30 & 46 & 1.533333333 & 1.701638622 & 1.045714286 & 0.38978995 \\ \hline
+        16 & 30 & 32 & 1.066666667 & 1.701638622 & 1.045714286 & 0.38978995 \\ \hline
+        17 & 30 & 30 & 1 & 1.701638622 & 1.045714286 & 0.38978995 \\ \hline
+        18 & 30 & 34 & 1.133333333 & 1.701638622 & 1.045714286 & 0.38978995 \\ \hline
+        19 & 15 & 11 & 0.733333333 & 1.701638622 & 1.045714286 & 0.38978995 \\ \hline
+        20 & 15 & 14 & 0.933333333 & 1.701638622 & 1.045714286 & 0.38978995 \\ \hline
+        21 & 15 & 30 & 2 & 1.701638622 & 1.045714286 & 0.38978995 \\ \hline
+        22 & 15 & 17 & 1.133333333 & 1.701638622 & 1.045714286 & 0.38978995 \\ \hline
+        23 & 15 & 18 & 1.2 & 1.701638622 & 1.045714286 & 0.38978995 \\ \hline
+        24 & 15 & 20 & 1.333333333 & 1.701638622 & 1.045714286 & 0.38978995 \\ \hline
+        ~ & 525 & 549 & ~ & ~ & ~ & ~ \\ \hline
+        ~ & ~ & ~ & ~ & ~ & ~ & ~ \\ \hline
+        ~ & U & 1.045714286 & ~ & ~ & ~ & ~ \\ \hline
+        ~ & n & 21.875 \\ \hline
+    \end{tabular}
+\end{table}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.6\textwidth]{GrafU.png}
+	\caption[short]{Gráfico Carta U}
+	\label{fig:imagen2}
+  \end{figure}
   \bibliographystyle{apacite}
 \nocite{*}
-\bibliography{instrumentos}
-\end{enumerate}
+\bibliography{cartas-por-atributos}
 \end{document}
